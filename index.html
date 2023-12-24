@@ -102,8 +102,10 @@
  <div id="overlay">
   <ul>
    <li class="title">请选择音乐</li>
-   <li><button class="btn" id="btnA" type="button">Jingle Bells</button></li>
-   <li><button class="btn" id="btnB" type="button">那些你很冒险的梦</button></li>
+   <li><button class="btn" id="btnA" type="button">Jericho</button></li>
+   <li><button class="btn" id="btnB" type="button">黑眼圈</button></li>
+   <li><button class="btn" id="btnC" type="button">Jingle Bells</button></li>
+   <li><button class="btn" id="btnD" type="button">那些你很冒险的梦</button></li>
    <li class="separator">或者</li>
    <li>
     <input type="file" id="upload" hidden />
@@ -227,6 +229,8 @@
       document.getElementById("overlay").innerHTML =
       '<div class="text-loading">正在下载音乐，请稍等...</div>';
       const files = [
+       "../static/Jericho.mp3",
+       "../static/黑眼圈.mp3",
           "../static/Jingle Bells.mp3",
           "../static/jj.mp3"
       ];
